@@ -8,6 +8,10 @@ public class firstTest
 	public void firstTest()
 	{
 		System.out.println("nbvnvbvm");
+		System.out.println("nbvnvbvm");
+		System.out.println("nbvnvbvm");
+		System.out.println("nbvnvbvm");
+		System.out.println("nbvnvbvm");
 	}
 
 }
