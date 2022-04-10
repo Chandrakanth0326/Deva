@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="61" started-at="2022-04-10T09:19:36Z" finished-at="2022-04-10T09:19:36Z">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="Profile1Test.hiiTest()[pri:0, instance:Profiling.Profile1Test@5649fd9b]" name="hiiTest" class="Profiling.Profile1Test"/>
+        <method signature="Profile2Test.HIITest()[pri:0, instance:Profiling.Profile2Test@6adede5]" name="HIITest" class="Profiling.Profile2Test"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Test" duration-ms="61" started-at="2022-04-10T09:19:36Z" finished-at="2022-04-10T09:19:36Z">
+      <class name="Profiling.Profile1Test">
+        <test-method status="PASS" signature="hiiTest()[pri:0, instance:Profiling.Profile1Test@5649fd9b]" name="hiiTest" duration-ms="16" started-at="2022-04-10T09:19:36Z" finished-at="2022-04-10T09:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hiiTest -->
+      </class> <!-- Profiling.Profile1Test -->
+      <class name="Profiling.Profile2Test">
+        <test-method status="PASS" signature="HIITest()[pri:0, instance:Profiling.Profile2Test@6adede5]" name="HIITest" duration-ms="3" started-at="2022-04-10T09:19:36Z" finished-at="2022-04-10T09:19:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HIITest -->
+      </class> <!-- Profiling.Profile2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

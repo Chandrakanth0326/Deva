@@ -10,6 +10,11 @@
     <version>5.0.3</version>
 </dependency>
 <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+</dependency>
+<dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
     <version>5.1.0</version>
@@ -44,6 +49,53 @@
     <version>4.3.0</version>
     <scope>test</scope>
 </dependency>
-  
-  </dependencies>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+</dependencies>
+
+<profiles>
+	<profile>
+		<id>ST</id>
+	
+<build>
+		<plugins>
+				<plugin>
+					<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+
+    					<groupId>org.apache.maven.plugins</groupId>
+   						 <artifactId>maven-surefire-plugin</artifactId>
+    					<version>3.0.0-M5</version>
+    					<configuration>
+    					<suiteXmlFiles>
+    					Smoke.xml
+    					</suiteXmlFiles>
+    					</configuration>
+    			</plugin>
+		</plugins>
+</build>
+</profile>
+
+<profile>
+		<id>RT</id>
+	
+<build>
+		<plugins>
+				<plugin>
+					<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+
+    					<groupId>org.apache.maven.plugins</groupId>
+   						 <artifactId>maven-surefire-plugin</artifactId>
+    					<version>3.0.0-M5</version>
+    					<configuration>
+    					<suiteXmlFiles>
+    					Regression.xml
+    					</suiteXmlFiles>
+    					</configuration>
+    			</plugin>
+		</plugins>
+</build>
+</profile>
+
+
+  </profiles>  
 </project>
