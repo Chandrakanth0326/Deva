@@ -12,6 +12,7 @@ public class firstTest
 		System.out.println("nbvnvbvm");
 		System.out.println("nbvnvbvm");
 		System.out.println("nbvnvbvm");
+		System.out.println("nnfsam,");
 	}
 
 }

@@ -24,6 +24,7 @@ public class Profile2Test
 	public void HIITest()
 	{
 		System.out.println("hi kalyan");
+		System.out.println("hi pawan");
 	}
 
 }

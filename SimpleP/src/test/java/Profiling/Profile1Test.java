@@ -24,6 +24,7 @@ public class Profile1Test
 	public void hiiTest()
 	{
 		System.out.println("hi regression");
+		System.out.println("hi smoke");
 	}
 
 }
